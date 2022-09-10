@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+}
+.logo{
+    width: 90px;
+    height: 14px;
+}
+.menu-btn{
+    cursor: pointer;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+    font-family: 'Karla', sans-serif;
+    font-size: .8em;
+    color: hsl(273, 4%, 51%);
+    font-weight: 700;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: hsl(270, 9%, 17%);
+}
+nav ul button{
+    border: 1px solid hsl(270, 9%, 17%);
+    color: hsl(270, 9%, 17%);
+    background-color: hsl(0, 0%, 98%);
+    padding: 6px 15px;
+    margin-left: 20px;
+    font-size: .8em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+nav ul button:hover{
+    background-color: hsl(270, 9%, 17%);
+    color: hsl(0, 0%, 98%);
+}
+header{
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 330px;
+    padding: 0px 100px;
+    background-image: url(images/bg-pattern-intro-right-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+header div:first-child{
+    margin-top: 55px;
+}
+header img{
+    width: 300px;
+    margin-bottom: -170px;
+}
+header h1{
+    font-family: 'DM Serif Display', serif;
+    color: hsl(0, 0%, 98%);
+    font-size: 3em;
+    margin-right: 50px;
+    line-height: 50px;
+}
+header h1 span{
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+header p{
+    font-family:'Karla', sans-serif;
+    color: hsl(280, 3%, 63%);
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+header button{
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 98%);
+    margin-top: 20px;
+    padding: 4px 15px;
+    font-size: .8em;
+    font-family:'Karla', sans-serif;
+}
+header button:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 0%);
+}
+#backgroung-img{
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    width: 100px;
+}
+section:nth-child(3){
+    margin: 200px 0px 70px;
+    padding: 0px 100px;
+}
+section:nth-child(3) h1{
+    font-size: 2.4em;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 40px;
+    color: hsl(270, 9%, 17%);
+}
+section:nth-child(3) h1 span{
+    border-top: 1px solid hsl(280, 3%, 80%);
+    padding-top: 20px;
+}
+section:nth-child(3)>div{
+    display: flex;
+    justify-content: space-between;
+}
+section:nth-child(3) img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+section:nth-child(3) h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: hsl(270, 9%, 17%);
+}
+section:nth-child(3) p{
+    font-family:'Karla', sans-serif;
+    font-size: .6em;
+    width: 90%;
+}
+section:nth-child(4){
+    background-color: hsl(256, 26%, 20%);
+    margin:0px 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/bg-pattern-how-we-work-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+section:nth-child(4) h1{
+    color: hsl(0, 0%, 98%);
+    font-family: 'DM Serif Display', serif;
+    font-size: 2em;
+    width: 300px;
+}
+section:nth-child(4) button{
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 98%);
+    padding: 5px 15px;
+    font-size: .8em;
+    font-family:'Karla', sans-serif;
+}
+section:nth-child(4) button:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 0%);
+}
+footer{
+    background-image: url(images/bg-pattern-footer-desktop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: hsl(216, 30%, 95%);
+    padding: 30px 100px;
+    margin-top: 90px;
+}
+footer .logos{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(273, 4%, 71%);
+    padding-bottom: 15px;
+}
+footer .logos > img{
+    height: 15px;
+}
+footer .logos div img{
+    margin-left: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+footer .logos div img:hover{
+    filter: brightness(20%);
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+}
+.options ul li{
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+    color: hsl(270, 9%, 17%);
+    font-weight: 700;
+    font-size: .8em;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.options ul li:hover{
+    text-decoration: underline;
+}
+.options ul li:first-child{
+    color: hsl(273, 4%, 51%);
+    margin: 30px 0px 20px;
+}
+
+@media only screen and (max-width:750px) {
+    nav{
+        padding: 15px 20px;
+        position: relative;
+    }
+    nav ul{
+        background-color: hsl(270, 9%, 17%);
+        position: absolute;
+        top: 62px;
+        text-align: center;
+        width: 100%;
+        margin-left: -20px;
+        height: 94vh;
+        padding: 30px 0px;
+        background-image: url(images/bg-pattern-mobile-nav.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        top: -1900px;
+        transition:all 1s ease;
+    }
+    .show{
+        top: 62px;
+    }
+    nav ul li{
+        display: block;
+        color: hsl(0, 0%, 98%);
+        font-size: 1.3em;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+    nav ul li:hover{
+        color: hsl(0, 0%, 98%);
+    }
+    nav ul button{
+        font-family: 'Karla', sans-serif;
+        background-color: transparent;
+        color: hsl(0, 0%, 98%);
+        border: 1px solid hsl(0, 0%, 98%);
+        width: 80%;
+        padding: 12px 0px;
+        margin-left: 0px;
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    nav ul button:hover{
+        background-color: hsl(0, 0%, 98%);
+        color: hsl(270, 9%, 17%);
+    }
+    #backgroung-img{
+        display: none;
+    }
+    header{
+        height: 100%;
+        padding: 0px;
+        flex-direction: column-reverse;
+        background-image: url(images/bg-pattern-intro-left-mobile.png);
+        background-repeat: no-repeat;
+        background-position: 0px 540px;
+        background-size: 200px;
+    }
+    header div:first-child{
+        margin-top: 0px;
+        text-align: center;
+        padding: 60px 20px;
+    }
+    header img{
+        width: 100%;
+        height: 94vh;
+        margin-bottom: 0px;
+    }
+    header h1{
+        font-size: 2.7em;
+        margin-right: 0px;
+        line-height: 40px;
+    }
+    header h1 span{
+        border-top: none;
+        padding-top: 0px;
+    }
+    header p{
+        margin-right: 0px;
+    }
+    header button{
+        margin-top: 20px;
+    }
+    section:nth-child(3){
+        margin: 150px 0px 70px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    section:nth-child(3) h1{
+        font-size: 2.4em;
+    }
+    section:nth-child(3) h1 span{
+        border-top: none;
+    }
+    section:nth-child(3)>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    section:nth-child(3) p{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    section:nth-child(4){
+        margin:0px 20px;
+        padding: 40px 30px;
+        line-height: 35px;
+        text-align: center;
+        flex-direction: column;
+        background-image: url(images/bg-pattern-how-we-work-mobile.png);
+    }
+    section:nth-child(4) h1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer{
+        padding: 30px 20px;
+    }
+    footer .logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .logos > img{
+        margin-bottom: 15px;
+    }
+    footer .logos div img{
+        margin-left: 10px;
+    }
+    footer .logos div img:first-child{
+        margin-left: 0px;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+}
